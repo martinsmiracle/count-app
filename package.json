@@ -1,6 +1,9 @@
 {
   "name": "count-app",
   "private": false,
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  "homepage": "https://miracle-martins.github.io/count-app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
